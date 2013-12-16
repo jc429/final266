@@ -1,5 +1,11 @@
 IT266 Final Project
 
----AK47 Mod
+Australian Mod
 
-(I only uploaded the dlls because it seems pointless to upload 700 mb of nearly untouched code)
+-Players are constantly jumping like kangaroos
+
+-The RPG flies in a boomerang arc
+
+-The screen is upside down 
+
+I only included the files I modified to save space/time. Search "jc429" for my edits
