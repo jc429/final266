@@ -76,6 +76,7 @@ extern int gEvilImpulse101;
 ConVar sv_autojump( "sv_autojump", "0" );
 //jc429 mod move speeds a bit
 //ev8 so this changes everyone's speeds, but you only manipulate player jumps
+//jc429 are there nonplayers in multiplayer? I guess I should fix that if there are.
 ConVar hl2_walkspeed( "hl2_walkspeed", "250" );
 ConVar hl2_normspeed( "hl2_normspeed", "390" );
 ConVar hl2_sprintspeed( "hl2_sprintspeed", "620" );

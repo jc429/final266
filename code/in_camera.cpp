@@ -33,7 +33,7 @@ static Vector CAM_HULL_MIN(-CAM_HULL_OFFSET,-CAM_HULL_OFFSET,-CAM_HULL_OFFSET);
 static Vector CAM_HULL_MAX( CAM_HULL_OFFSET, CAM_HULL_OFFSET, CAM_HULL_OFFSET);
 
 //-------------------------------------------------- Global Variables //jc429 camera info
-// ev8 not sure what these are for 
+// ev8 not sure what these are for //jc429 I tried screwing with these to change the camera but nothing changed so I left them alone
 
 static ConVar cam_command( "cam_command", "0", FCVAR_CHEAT );	 // tells camera to go to thirdperson
 static ConVar cam_snapto( "cam_snapto", "0", FCVAR_ARCHIVE );	 // snap to thirdperson view

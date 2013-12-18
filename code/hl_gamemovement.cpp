@@ -539,7 +539,7 @@ void CHL2GameMovement::FullLadderMove()
 	// Was jump button pressed?  If so, don't do anything here
 	if ( mv->m_nButtons & IN_JUMP )
 	{
-		CheckJumpButton(); //jc429 //ev8 so your checking for jumping from ladders?
+		CheckJumpButton(); //jc429 //ev8 so your checking for jumping from ladders? //jc429 whoops I just left a tag here by accident while I was looking for how jumps were called
 		return;
 	}
 	else
