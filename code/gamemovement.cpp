@@ -1249,7 +1249,8 @@ void CGameMovement::StartGravity( void )
 		ent_gravity = 0.2*1.0;
 
 	// Add gravity so they'll be in the correct position during movement
-	// yes, this 0.5 looks wrong, but it's not.  
+	// yes, this 0.5 looks wrong, but it's not.
+	// ev8 so you turned down gravity during the jump, wouldn't it be tidy to edit the player's gravity in the base entity?.   
 	mv->m_vecVelocity[2] -= (ent_gravity * sv_gravity.GetFloat() * 0.5 * gpGlobals->frametime );
 	mv->m_vecVelocity[2] += player->GetBaseVelocity()[2] * gpGlobals->frametime;
 

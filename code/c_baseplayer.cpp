@@ -1192,6 +1192,7 @@ void C_BasePlayer::CreateWaterEffects( void )
 // Called when not in tactical mode. Allows view to be overriden for things like driving a tank.
 //-----------------------------------------------------------------------------
 //jc429 overrides the viewport to be upside-down
+//ev8 i know it'd probably be alot to figure out but maybe a future idea could be to flip the gun rendering too.
 void C_BasePlayer::OverrideRoll( CViewSetup *pSetup )
 {
 	pSetup->angles[2] = 180;

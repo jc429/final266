@@ -472,6 +472,7 @@ void CMissile::IgniteThink( void )
 	SetAbsVelocity( vecForward * m_speed );
 
 	SetThink(&CMissile::BoomerThink); //SeekThink jc429rpg
+						//ev8 swicthing think functions seems to be the only way to get clever behavior out of entities in source without using hammer and scripts.
 	SetNextThink( gpGlobals->curtime );
 
 	if ( m_hOwner && m_hOwner->GetOwner() )

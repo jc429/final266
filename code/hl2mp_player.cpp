@@ -260,7 +260,8 @@ void CHL2MP_Player::GiveDefaultItems( void )
 	GiveNamedItem( "weapon_physcannon" );
 	GiveNamedItem( "weapon_crossbow" );
 	GiveNamedItem( "weapon_rpg" );
-	//jc429 players' starting weapons 
+	//jc429 players' starting weapons
+	//ev8 this is way better than the way steam recommends you do it
 
 	const char *szDefaultWeaponName = engine->GetClientConVarValue( engine->IndexOfEdict( edict() ), "cl_defaultweapon" );
 

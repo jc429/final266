@@ -225,7 +225,7 @@ void C_HL2MP_Player::UpdateLookAt( void )
 	m_flCurrentHeadPitch = AngleNormalize( m_flCurrentHeadPitch );
 	SetPoseParameter( m_headPitchPoseParam, m_flCurrentHeadPitch );
 }
-
+//ev8 solid vector math
 void C_HL2MP_Player::ClientThink( void )//jc429 clientthink GetLocalAngles()
 {
 	bool bFoundViewTarget = false;
